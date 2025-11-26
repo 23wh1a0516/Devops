@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Contest Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="number"],
+        input[type="url"],
+        input[type="file"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 8px;
+        }
+
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h2>Music Contest Registration Form</h2>
+    <form>
+        <label for="fname">Full Name:</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3"></textarea>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state">
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode">
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country">
+
+        <label for="category">Category (Solo/Duet/Group):</label>
+        <input type="text" id="category" name="category">
+
+        <label for="instrument">Instrument (if any):</label>
+        <input type="text" id="instrument" name="instrument">
+
+        <label for="genre">Preferred Genre:</label>
+        <input type="text" id="genre" name="genre">
+
+        <label for="experience">Musical Experience (in years):</label>
+        <input type="number" id="experience" name="experience" min="0">
+
+        <label for="achievement">Notable Achievements:</label>
+        <textarea id="achievement" name="achievement" rows="3"></textarea>
+
+        <label for="social">Social Media Link (YouTube/Instagram):</label>
+        <input type="url" id="social" name="social">
+
+        <label for="school">School/College Name:</label>
+        <input type="text" id="school" name="school">
+
+        <label for="idproof">Upload ID Proof:</label>
+        <input type="file" id="idproof" name="idproof">
+
+        <label for="photo">Upload Passport Size Photo:</label>
+        <input type="file" id="photo" name="photo">
+
+        <label>
+            <input type="checkbox" id="terms" name="terms">
+            I agree to the terms and conditions
+        </label>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
